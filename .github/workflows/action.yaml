@@ -1,0 +1,24 @@
+name: 'Input Actions'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "Hello, world!"
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+description: |
+  This is a template to help you get started with building an action in JavaScript.
+  See the README for more information.
+inputs:
+  access-token:
+    description: 'Access token with write access to the repository'
+    required: true
