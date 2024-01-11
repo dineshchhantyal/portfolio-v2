@@ -1,5 +1,5 @@
 ---
-date: '2020-10-11'
+date: '2021-10-11'
 title: 'Google Clone'
 github: 'https://github.com/dineshchhantyal/google-clone'
 external: ''

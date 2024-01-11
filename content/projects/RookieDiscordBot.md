@@ -1,5 +1,5 @@
 ---
-date: '2020-10-11'
+date: '2022-10-11'
 title: 'Rookie: Discord Bot for Class Schedule Management'
 github: 'https://github.com/dineshchhantyal/rookie'
 external: ''

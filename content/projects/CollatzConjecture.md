@@ -1,5 +1,5 @@
 ---
-date: '2020-10-11'
+date: '2023-06-11'
 title: 'Collatz Conjecture'
 github: 'https://github.com/dineshchhantyal/collatz_conjecture'
 external: ''

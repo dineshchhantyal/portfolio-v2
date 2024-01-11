@@ -1,5 +1,5 @@
 ---
-date: '2020-10-11'
+date: '2022-12-11'
 title: 'Area Under Curve: Riemann Sum'
 github: 'https://github.com/dineshchhantyal/RiemannSum'
 external: ''

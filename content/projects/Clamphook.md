@@ -1,5 +1,5 @@
 ---
-date: '2020-10-11'
+date: '2021-01-11'
 title: 'Clamphook Academy'
 github: ''
 external: 'https://www.clamphook.com'

@@ -1,5 +1,5 @@
 ---
-date: '2020-10-11'
+date: '2022-10-11'
 title: 'Covid-19 Tracker'
 github: ''
 external: 'https://covid-tra-5fe6c.web.app/'
