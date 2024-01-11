@@ -1,4 +1,8 @@
 name: 'Input Actions'
+on:
+  push:
+    branches:
+      - main
 description: |
   This is a template to help you get started with building an action in JavaScript.
   See the README for more information.
