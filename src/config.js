@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Dinesh Chhantyal | Software Developer | Content Freelancer',
+  siteTitle: 'Dinesh Chhantyal | Software Developer | Content Creator',
   siteDescription:
     'Dinesh Chhantyal is a Student Web Developer at University of Louisiana at Monroe, who loves learning new things and helping tech beginners.',
   siteKeywords:
