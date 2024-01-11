@@ -5,7 +5,7 @@
   "author": "Dinesh Chhantyal <myagdichhantyal@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dineshchhantyal/portfolio-2024.github.io"
+    "url": "https://github.com/dineshchhantyal/portfolio-v2.github.io"
   },
   "keywords": [
     "gatsby"
@@ -18,7 +18,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "husky": {
     "hooks": {

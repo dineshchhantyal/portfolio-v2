@@ -2,7 +2,7 @@
 
 - git clone
 
-- cd portfolio-2024.github.io
+- cd portfolio-v2.github.io
 
 - source ~/.nvm/nvm.sh
 
