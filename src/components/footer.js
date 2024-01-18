@@ -62,25 +62,25 @@ const StyledGitHubInfo = styled.div`
 
 const Footer = () => {
   const [githubInfo, setGitHubInfo] = useState({
-    stars: null,
-    forks: null,
+    stars: 10,
+    forks: 18,
   });
 
-  useEffect(() => {
-    if (process.env.NODE_ENV !== 'production') {
-      return;
-    }
-    fetch('https://api.github.com/repos/bchiang7/v4')
-      .then(response => response.json())
-      .then(json => {
-        const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      })
-      .catch(e => console.error(e));
-  }, []);
+  // useEffect(() => {
+  //   if (process.env.NODE_ENV !== 'production') {
+  //     return;
+  //   }
+  //   fetch('https://api.github.com/repos/dineshchhantyal/v4')
+  //     .then(response => response.json())
+  //     .then(json => {
+  //       const { stargazers_count, forks_count } = json;
+  //       setGitHubInfo({
+  //         stars: stargazers_count,
+  //         forks: forks_count,
+  //       });
+  //     })
+  //     .catch(e => console.error(e));
+  // }, []);
 
   return (
     <StyledContainer>
@@ -109,18 +109,18 @@ const Footer = () => {
             <span>&copy; {new Date().getFullYear()} Dinesh Chhantyal</span>
           </div>
 
-          {githubInfo.stars && githubInfo.forks && (
-            <StyledGitHubInfo>
-              <span>
-                <FormattedIcon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <FormattedIcon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </StyledGitHubInfo>
-          )}
+          {/* {githubInfo.stars && githubInfo.forks && (
+              <StyledGitHubInfo>
+                <span>
+                  <FormattedIcon name="O" />
+                  <span>{githubInfo.stars.toLocaleString()}</span>
+                </span>
+                <span>
+                  <FormattedIcon name="Fork" />
+                  <span>{githubInfo.forks.toLocaleString()}</span>
+                </span>
+              </StyledGitHubInfo>
+            )} */}
         </StyledGitHubLink>
       </StyledMetadata>
     </StyledContainer>
