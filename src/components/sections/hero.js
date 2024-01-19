@@ -67,22 +67,22 @@ const Hero = ({ data }) => {
   const { frontmatter, html } = data[0].node;
 
   const one = () => (
-    <StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline>
+    <StyledOverline style={{}}>{frontmatter.title}</StyledOverline>
   );
   const two = () => (
-    <StyledTitle style={{ transitionDelay: '600ms' }}>{frontmatter.name}.</StyledTitle>
+    <StyledTitle style={{}}>{frontmatter.name}.</StyledTitle>
   );
   const three = () => (
-    <StyledSubtitle style={{ transitionDelay: '800ms' }}>{frontmatter.subtitle}</StyledSubtitle>
+    <StyledSubtitle style={{}}>{frontmatter.subtitle}</StyledSubtitle>
   );
   const four = () => (
     <StyledDescription
-      style={{ transitionDelay: '1100ms' }}
+      style={{}}
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );
   const five = () => (
-    <div style={{ transitionDelay: '1500ms' }}>
+    <div style={{}}>
       <StyledEmailLink href={`mailto:${email}`}>Contact Me</StyledEmailLink>
     </div>
   );
