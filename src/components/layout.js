@@ -49,7 +49,8 @@ const StyledContent = styled.div`
 
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
-  const [isLoading, setIsLoading] = useState(isHome);
+  // const [isLoading, setIsLoading] = useState(isHome);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     if (isLoading) {
@@ -88,7 +89,7 @@ const Layout = ({ children, location }) => {
 
           <SkipToContent href="#content">Skip to Content</SkipToContent>
 
-          {isLoading && isHome ? (
+          {isLoading ? (
             <Loader finishLoading={() => setIsLoading(false)} />
           ) : (
             <StyledContent>

@@ -2,7 +2,7 @@
 date: '2021-10-11'
 title: 'Google Clone'
 github: 'https://github.com/dineshchhantyal/google-clone'
-external: ''
+external: 'https://google-clone-weld.vercel.app/'
 tech:
   - Next.js
   - Tailwind CSS
