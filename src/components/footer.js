@@ -80,10 +80,10 @@ margin - top: 10px;
 `;
 
 const links = [{
-  name: 'Updates',
+  name: '🔄 Updates',
   url: config.siteUrl + '/updates'
 }, {
-  name: 'Blogs',
+  name: '📝 Blogs',
   url: config.siteUrl + '/blogs'
 }]
 
