@@ -4,6 +4,7 @@ import { FormattedIcon } from '@components/icons';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
+import config from '../config';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled.footer`
@@ -44,21 +45,47 @@ const StyledGitHubLink = styled.a`
   color: ${colors.lightSlate};
   padding: 10px;
 `;
-const StyledGitHubInfo = styled.div`
+
+const StyledLinks = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-top: 10px;
+  gap: 10px;
+  `;
+
+const StyledLink = styled.a`
+padding: 4px 0px 10px 0px;
+
+    & > span {
+  color: ${colors.lightSlate};
+}
+`;
+
+const StyledGitHubInfo = styled.div`
+margin - top: 10px;
 
   & > span {
-    display: inline-flex;
-    align-items: center;
-    margin: 0 7px;
-  }
+  display: inline - flex;
+  align - items: center;
+  margin: 0 7px;
+}
   svg {
-    display: inline-block;
-    height: 15px;
-    width: auto;
-    margin-right: 5px;
-  }
+  display: inline - block;
+  height: 15px;
+  width: auto;
+  margin - right: 5px;
+}
 `;
+
+const links = [{
+  name: 'Updates',
+  url: config.siteUrl + '/updates'
+}, {
+  name: 'Blogs',
+  url: config.siteUrl + '/blogs'
+}]
 
 const Footer = () => {
   const [githubInfo, setGitHubInfo] = useState({
@@ -108,7 +135,6 @@ const Footer = () => {
           <div>
             <span>&copy; {new Date().getFullYear()} Dinesh Chhantyal</span>
           </div>
-
           {/* {githubInfo.stars && githubInfo.forks && (
               <StyledGitHubInfo>
                 <span>
@@ -122,6 +148,26 @@ const Footer = () => {
               </StyledGitHubInfo>
             )} */}
         </StyledGitHubLink>
+        <StyledLinks>
+          {/* updates page link */}
+          {
+            links.map((link, i) =>
+              <StyledLink
+                href={link.url}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                className='underline'
+              >
+                <div>
+                  <span>{link.name}</span>
+                  {
+                    i !== links.length - 1 && <span> - </span>
+                  }
+                </div>
+
+              </StyledLink>
+            )}
+        </StyledLinks>
       </StyledMetadata>
     </StyledContainer>
   );

@@ -52,7 +52,7 @@ module.exports = {
     {
       name: 'Contact',
       url: '/#contact',
-    },
+    }
   ],
 
   navHeight: 100,
