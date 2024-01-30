@@ -1,24 +1,12 @@
 ---
-title: Unleashing Dynamic Meetings':' Harnessing Microsoft Teams API
+title: Unleashing Dynamic Meetings with the Microsoft Teams API
 description: Dive into the realm of custom applications with a twist! Join me on a journey where we wield the power of the Microsoft Teams API to forge dynamic meetings with ease.
 date: '2024-01-30'
-draft: true
+draft: false
 slug: '/blogs/microsoft-create-dynamic-meeting-using-teams-api'
 tags:
-  - Testing
-  - Microsoft
-  - Teams
-  - API
-  - Meeting
-  - Dynamic
-  - Link
-  - Create
+  - Teams API
   - CreateMeeting
-  - CreateMeetingLink
-  - CreateMeetingLinkWithDynamicLink
-  - CreateMeetingLinkWithDynamicLinkUsingTeamsAPI
-  - CreateMeetingLinkWithDynamicLinkUsingMicrosoftTeamsAPI
-  - CreateMeetingLinkWithDynamicLinkUsingMicrosoftTeamsAPIInCSharp
 ---
 
 Crafting meetings that adapt to your team's needs is crucial in the digital collaboration era. Picture a meeting link that adjusts dynamically, inviting participants seamlessly. Let's explore how to achieve this with the Microsoft Teams API.
@@ -52,7 +40,7 @@ https://login.microsoftonline.com/{tenant-id}/oauth2/v2.0/token
 5. **Create the Meeting:** Use the access token to make a POST request to
 
 ```http
-   https://graph.microsoft.com/v1.0/users/{user-id}/onlineMeetings
+https://graph.microsoft.com/v1.0/users/{user-id}/onlineMeetings
 ```
 
 Include parameters like `startDateTime`, `endDateTime`, `subject`, and `participants`.
