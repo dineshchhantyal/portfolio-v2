@@ -71,6 +71,23 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
   if (stage === 'build-html') {
     actions.setWebpackConfig({
+      optimization: {
+        splitChunks: {
+          chunks: 'all',
+          cacheGroups: {
+            scrollreveal: {
+              test: /scrollreveal/,
+              name: 'scrollreveal',
+              chunks: 'all',
+            },
+            animejs: {
+              test: /animejs/,
+              name: 'animejs',
+              chunks: 'all',
+            },
+          },
+        },
+      },
       module: {
         rules: [
           {
