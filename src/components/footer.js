@@ -154,8 +154,6 @@ const Footer = () => {
             links.map((link, i) =>
               <StyledLink
                 href={link.url}
-                target="_blank"
-                rel="nofollow noopener noreferrer"
                 className='underline'
               >
                 <div>
