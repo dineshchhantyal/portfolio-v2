@@ -73,7 +73,7 @@ As I reflect on the conference, I am reminded of the vibrant community that math
 
 ![Integration Bee Participants](./integeration-university.jpg)
 
-- Integration Bee participants from our university
+- All university participants in the Integration Bee
 
 ![Maths Competition Winners](./maths-winners.jpg)
 
