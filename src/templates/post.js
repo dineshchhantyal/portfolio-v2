@@ -36,7 +36,7 @@ const StyledPostContent = styled.div`
 `;
 
 const PostTemplate = ({ data, location }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter, html } = data.markdownRemark;
   const { title, date, tags, slug } = frontmatter;
 
   return (
@@ -54,7 +54,7 @@ const PostTemplate = ({ data, location }) => {
           month: 'long',
           day: 'numeric',
         })} />
-        <meta property="article:tag" content={tags} />
+        <meta property="article:tag" content={JSON.stringify(tags)} />
 
       </Helmet>
 
