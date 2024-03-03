@@ -36,14 +36,26 @@ const StyledPostContent = styled.div`
 `;
 
 const PostTemplate = ({ data, location }) => {
-  const { frontmatter, html } = data.markdownRemark;
-  const { title, date, tags } = frontmatter;
+  const { frontmatter } = data.markdownRemark;
+  const { title, date, tags, slug } = frontmatter;
 
   return (
     <Layout location={location}>
       <Helmet>
         <title>{title} | Dinesh Chhantyal</title>
         <link rel="canonical" href="https://dineshchhantyal.com.np/blogs" />
+        <meta name="description" content={frontmatter.description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:url" content={"https://dineshchhantyal.com.np/blogs" + slug} />
+        <meta property="og:description" content={frontmatter.description} />
+        <meta property="og:type" content="article" />
+        <meta property="article:published_time" content={new Date(date).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        })} />
+        <meta property="article:tag" content={tags} />
+
       </Helmet>
 
       <StyledPostContainer>
