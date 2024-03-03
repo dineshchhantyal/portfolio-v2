@@ -57,9 +57,28 @@ The MAA Louisiana/Mississippi Section Meeting 2024 was more than just a conferen
 
 As I reflect on the conference, I am reminded of the vibrant community that mathematics nurtures and the endless possibilities it presents for exploration, innovation, and career development. Also, I want to express my sincere gratitude to Professor Dr. Shim, Dr. Farman, and the University of Louisiana at Monroe for giving me the opportunity to attend the MAA Louisiana/Mississippi Section Meeting in New Orleans. It was an experience that has left an indelible mark on my journey. I look forward to the next edition of this conference and the new horizons it will unveil.
 
+## Image Gallery
+
 ![me](./me.jpg)
+
+- Me at the MAA LA MS Math Conference 2024
+
 ![Name Tag](./maa-name-tag.jpg)
+
+- My name tag for the conference
+
 ![Team ULM](./ulm-all.jpg)
+
+- ULM team at the conference
+
 ![Integration Bee Participants](./integeration-university.jpg)
+
+- Integration Bee participants from our university
+
 ![Maths Competition Winners](./maths-winners.jpg)
+
+- Winners of the mathematics competition: Team and Individual
+
 ![Data Science and Math Modeling](./workshop-1-1.jpg)
+
+- Data Science and Math Modeling Workshop
