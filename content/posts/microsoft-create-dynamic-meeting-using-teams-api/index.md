@@ -43,7 +43,9 @@ https://login.microsoftonline.com/{tenant-id}/oauth2/v2.0/token
 https://graph.microsoft.com/v1.0/users/{user-id}/onlineMeetings
 ```
 
-Include parameters like `startDateTime`, `endDateTime`, `subject`, and `participants`.
+Include parameters like `startDateTime`, `endDateTime`, and `subject`.
+
+user-id: The object ID of the user to create the meeting on behalf of.
 
 With each step, you're one closer to crafting dynamic meetings that enhance collaboration within your team.
 
