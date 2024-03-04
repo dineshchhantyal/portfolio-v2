@@ -34,11 +34,11 @@ const StyledGrid = styled.div`
   margin-top: 50px;
 
   .posts {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 15px;
-    position: relative;
-    ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
+    display: flex;
+    flex-direction: column;
+    ${media.tablet`flex-direction: row;`};
+    flex-wrap: wrap;
+    gap: 15px;
   }
 `;
 
@@ -146,64 +146,64 @@ const ShowAll = styled(Link)`
 
 
 const Blogs = ({ data }) => {
-    const revealContainer = useRef(null);
-    useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
-    return (
-        <StyledMainContainer
-            id="blogs"
-            ref={revealContainer}
-        >
-            <Heading>
-                Blogs &amp; Tutorials <span role="img" aria-label="lightbulb"></span>
-            </Heading>
+  const revealContainer = useRef(null);
+  useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
+  return (
+    <StyledMainContainer
+      id="blogs"
+      ref={revealContainer}
+    >
+      <Heading>
+        Blogs &amp; Tutorials
+      </Heading>
 
-            <StyledGrid>
-                <div className="posts">
-                    {data.length > 0 &&
-                        data.map(({ node }, i) => {
-                            const { frontmatter } = node;
-                            const { title, description, slug, date, tags } = frontmatter;
-                            const d = new Date(date);
+      <StyledGrid>
+        <div className="posts">
+          {data.length > 0 &&
+            data.map(({ node }, i) => {
+              const { frontmatter } = node;
+              const { title, description, slug, date, tags } = frontmatter;
+              const d = new Date(date);
 
-                            return (
-                                <StyledPost key={i} tabIndex="0">
-                                    <StyledPostInner>
-                                        <header>
-                                            <Link to={slug}>
-                                                <StyledPostHeader>
-                                                    <StyledCategoryIcon>
-                                                        {/* Use a more representative icon or consider alternative visual elements */}
-                                                        <IconZap />
-                                                    </StyledCategoryIcon>
-                                                </StyledPostHeader>
-                                                <StyledPostName>{title}</StyledPostName>
-                                                <StyledPostDescription>{description}</StyledPostDescription>
-                                            </Link>
-                                        </header>
-                                        <footer>
-                                            <StyledDate>
-                                                <StyledCalendarIcon>&#128197;</StyledCalendarIcon> {`${d.toLocaleDateString()}`}
-                                            </StyledDate>
-                                            <StyledTags>
-                                                {tags.slice(0, 3).map((tag, i) => (
-                                                    <li key={i}>
-                                                        <Link to={`/ blogs / tags / ${kebabCase(tag)} /`}>#{tag}</Link >
-                                                    </li >
-                                                ))}
-                                            </StyledTags >
-                                        </footer >
-                                    </StyledPostInner >
-                                </StyledPost >
-                            );
-                        })}
-                </div >
-            </StyledGrid >
-            {/* read all */}
-            <ShowAll to="/blogs" >
-                <span>Read all</span>
-            </ShowAll >
-        </StyledMainContainer >
-    );
+              return (
+                <StyledPost key={i} tabIndex="0">
+                  <StyledPostInner>
+                    <header>
+                      <Link to={slug}>
+                        <StyledPostHeader>
+                          <StyledCategoryIcon>
+                            {/* Use a more representative icon or consider alternative visual elements */}
+                            <IconZap />
+                          </StyledCategoryIcon>
+                        </StyledPostHeader>
+                        <StyledPostName>{title}</StyledPostName>
+                        <StyledPostDescription>{description}</StyledPostDescription>
+                      </Link>
+                    </header>
+                    <footer>
+                      <StyledDate>
+                        <StyledCalendarIcon>&#128197;</StyledCalendarIcon> {`${d.toLocaleDateString()}`}
+                      </StyledDate>
+                      <StyledTags>
+                        {tags.slice(0, 3).map((tag, i) => (
+                          <li key={i}>
+                            <Link to={`/ blogs / tags / ${kebabCase(tag)} /`}>#{tag}</Link >
+                          </li >
+                        ))}
+                      </StyledTags >
+                    </footer >
+                  </StyledPostInner >
+                </StyledPost >
+              );
+            })}
+        </div >
+      </StyledGrid >
+      {/* read all */}
+      <ShowAll to="/blogs" >
+        <span>Read all</span>
+      </ShowAll >
+    </StyledMainContainer >
+  );
 };
 
 export default Blogs;
