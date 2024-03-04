@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
+import { Layout, Hero, About, Jobs, Featured, Projects, Contact, Blogs } from '@components';
 import styled from 'styled-components';
 import { Main } from '@styles';
 
@@ -9,18 +9,22 @@ const StyledMainContainer = styled(Main)`
   counter-reset: section;
 `;
 
-const IndexPage = ({ location, data }) => (
-  <Layout location={location}>
-    <StyledMainContainer className="fillHeight">
-      <Hero data={data.hero.edges} />
-      <About data={data.about.edges} />
-      <Jobs data={data.jobs.edges} />
-      <Featured data={data.featured.edges} />
-      <Projects data={data.projects.edges} />
-      <Contact data={data.contact.edges} />
-    </StyledMainContainer>
-  </Layout>
-);
+const IndexPage = ({ location, data }) => {
+  console.log("data", data)
+  return (
+    < Layout location={location} >
+      <StyledMainContainer className="fillHeight">
+        <Hero data={data.hero.edges} />
+        <About data={data.about.edges} />
+        <Jobs data={data.jobs.edges} />
+        <Featured data={data.featured.edges} />
+        <Blogs data={data.blogs.edges} />
+        <Projects data={data.projects.edges} />
+        <Contact data={data.contact.edges} />
+      </StyledMainContainer>
+    </Layout >
+  );
+}
 
 IndexPage.propTypes = {
   location: PropTypes.object.isRequired,
@@ -126,6 +130,26 @@ export const pageQuery = graphql`
           frontmatter {
             title
             buttonText
+          }
+          html
+        }
+      }
+    }
+
+    blogs: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/posts/" }, frontmatter: { draft: { ne: true } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 2
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            description
+            slug
+            date
+            tags
+            draft
           }
           html
         }

@@ -62,7 +62,7 @@ As I reflect on the conference, I am reminded of the vibrant community that math
 
 ![me](./me.jpg)
 
-- Me at the MAA LA MS Math Conference 2024
+- Me at the conference
 
 ![Name Tag](./maa-name-tag.jpg)
 
