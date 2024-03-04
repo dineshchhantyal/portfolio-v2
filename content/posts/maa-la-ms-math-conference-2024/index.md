@@ -1,19 +1,20 @@
 ---
 title: Reflecting on the MAA Louisiana/Mississippi Section Meeting 2024
-description: The MAA LA MS Math Conference 2024 is a gathering of math educators and enthusiasts to share knowledge and insights on the latest trends in mathematics education.
+description: The Mathematical Association of America Louisiana/Mississippi Section Meeting 2024 was a celebration of mathematical inquiry and discovery. From the Integration Bee to insightful workshops, the conference was a convergence of minds and ideas. The event was held at the Sheraton Hotel in New Orleans, LA, from February 29 to March 2, 2024.
 date: '2024-02-03'
 draft: false
 slug: '/blogs/maa-la-ms-math-conference-2024'
+hero: 'maa-students.jpeg'
 tags:
-  - Math
   - Education
   - Conference
+  - Mathematical Association of America
   - MAA
-  - LA MS
+  - LA/MS
+  - Mathematical Association of America Louisiana/Mississippi Section Meeting
   - Mathematics
   - Educators
   - Integration
-  - Technology
   - Math Modeling
 ---
 

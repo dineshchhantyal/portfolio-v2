@@ -6,6 +6,8 @@ import PropTypes from 'prop-types';
 import { Layout } from '@components';
 import styled from 'styled-components';
 import { Main, theme } from '@styles';
+import config from '@config';
+
 const { colors } = theme;
 
 const StyledPostContainer = styled(Main)`
@@ -37,24 +39,26 @@ const StyledPostContent = styled.div`
 
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
-  const { title, date, tags, slug } = frontmatter;
-
+  const { title, date, tags, slug, hero } = frontmatter;
+  console.log("hero", hero)
   return (
     <Layout location={location}>
       <Helmet>
         <title>{title} | Dinesh Chhantyal</title>
-        <link rel="canonical" href="https://dineshchhantyal.com.np/blogs" />
+        <link rel="canonical" href={config.siteUrl + "/blogs"} />
         <meta name="description" content={frontmatter.description} />
         <meta property="og:title" content={title} />
-        <meta property="og:url" content={"https://dineshchhantyal.com.np/blogs" + slug} />
-        <meta property="og:description" content={frontmatter.description} />
+        <meta property="og:url" content={config.siteUrl + "/blogs" + slug} />
+        <meta property="og:description" content={frontmatter.description} />{hero &&
+          <meta property="og:image" content={config.siteUrl + "/thumbnail/" + hero} />}
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content={new Date(date).toLocaleDateString('en-US', {
           year: 'numeric',
           month: 'long',
           day: 'numeric',
         })} />
-        <meta property="article:tag" content={JSON.stringify(tags)} />
+        <meta property="article:tag" content={tags.join(", ")} />
+
 
       </Helmet>
 
@@ -108,6 +112,7 @@ export const pageQuery = graphql`
         date
         slug
         tags
+        hero
       }
     }
   }
