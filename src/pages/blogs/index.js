@@ -35,7 +35,7 @@ const StyledGrid = styled.div`
 
   .posts {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 15px;
     position: relative;
     ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
@@ -165,7 +165,7 @@ const BlogsPage = ({ location, data }) => {
                       <footer>
                         <StyledDate>{`${d.toLocaleDateString()}`}</StyledDate>
                         <StyledTags>
-                          {tags.map((tag, i) => (
+                          {tags.slice(0, 3).map((tag, i) => (
                             <li key={i}>
                               <Link to={`/blogs/tags/${kebabCase(tag)}/`}>#{tag}</Link>
                             </li>
