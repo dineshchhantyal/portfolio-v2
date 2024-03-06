@@ -18,7 +18,7 @@ tags:
   - Math Modeling
 ---
 
-The Mathematical Association of America (MAA) Louisiana/Mississippi Section Meeting 2024 was a celebration of mathematical inquiry and discovery. From the Integration Bee to insightful workshops, the conference was a convergence of minds and ideas. The event was held at the Sheraton Hotel in New Orleans, LA, from February 29 to March 2, 2024.
+The [Mathematical Association of America (MAA) Louisiana/Mississippi][https://www.la-ms.maa.org/] Section Meeting 2024 was a celebration of mathematical inquiry and discovery. From the Integration Bee to insightful workshops, the conference was a convergence of minds and ideas. The event was held at the Sheraton Hotel in [New Orleans, LA](https://maps.app.goo.gl/2EYHBAYsDL1gy82o7), from February 29 to March 2, 2024.
 
 ---
 
@@ -56,7 +56,7 @@ Moderated by Catherine Putnam with panelists from diverse fields such as the NSA
 
 The MAA Louisiana/Mississippi Section Meeting 2024 was more than just a conference; it was a celebration of mathematical inquiry and discovery. From achieving a personal milestone in the Integration Bee to absorbing invaluable knowledge from experts in the field, the experience was both enriching and inspiring.
 
-As I reflect on the conference, I am reminded of the vibrant community that mathematics nurtures and the endless possibilities it presents for exploration, innovation, and career development. Also, I want to express my sincere gratitude to Professor Dr. Shim, Dr. Farman, and the University of Louisiana at Monroe for giving me the opportunity to attend the MAA Louisiana/Mississippi Section Meeting in New Orleans. It was an experience that has left an indelible mark on my journey. I look forward to the next edition of this conference and the new horizons it will unveil.
+As I reflect on the conference, I am reminded of the vibrant community that mathematics nurtures and the endless possibilities it presents for exploration, innovation, and career development. Also, I want to express my sincere gratitude to Professor Dr. Shim, Dr. Farman, and the [University of Louisiana at Monroe](ulm.edu) for giving me the opportunity to attend the MAA Louisiana/Mississippi Section Meeting in New Orleans. It was an experience that has left an indelible mark on my journey. I look forward to the next edition of this conference and the new horizons it will unveil.
 
 ## Image Gallery
 
@@ -85,3 +85,5 @@ As I reflect on the conference, I am reminded of the vibrant community that math
 ![Data Science and Math Modeling Workshop at the Mathematical Association of America(MAA) Louisiana/ Mississippi Section 2024](./workshop-1-1.jpg)
 
 - Data Science and Math Modeling Workshop
+
+[https://www.la-ms.maa.org/]: https://www.la-ms.maa.org/
