@@ -18,7 +18,7 @@ tags:
   - Math Modeling
 ---
 
-The MAA LA MS Math Conference 2024 is a gathering of math educators and enthusiasts to share knowledge and insights on the latest trends in mathematics education.
+The Mathematical Association of America (MAA) Louisiana/Mississippi Section Meeting 2024 was a celebration of mathematical inquiry and discovery. From the Integration Bee to insightful workshops, the conference was a convergence of minds and ideas. The event was held at the Sheraton Hotel in New Orleans, LA, from February 29 to March 2, 2024.
 
 ---
 
@@ -60,26 +60,28 @@ As I reflect on the conference, I am reminded of the vibrant community that math
 
 ## Image Gallery
 
-![me](./me.jpg)
+![Photo of Dinesh Chhantyal at the Mathematical Association of America(MAA) Louisiana/ Mississippi Section 2024](./me.jpg)
 
 - Me at the conference
 
-![Name Tag](./maa-name-tag.jpg)
+![Dinesh Chhantyal's Name Tag for the Mathematical Association of America(MAA) Louisiana/ Mississippi Section 2024](./maa-name-tag.jpg)
 
 - My name tag for the conference
 
-![Team ULM](./ulm-all.jpg)
+<!-- ![Team ULM](./ulm-all.jpg) -->
+
+![University of Louisiana Monroe(ULM) Team at the Mathematical Association of America(MAA) Louisiana/ Mississippi Section 2024](./ulm-all.jpg)
 
 - ULM team at the conference
 
-![Integration Bee Participants](./integeration-university.jpg)
+![Integration Bee Participants at the Mathematical Association of America(MAA) Louisiana/ Mississippi Section 2024](./integeration-university.jpg)
 
 - All university participants in the Integration Bee
 
-![Maths Competition Winners](./maths-winners.jpg)
+![Winners of the mathematics competition at the Mathematical Association of America(MAA) Louisiana/ Mississippi Section 2024](./maths-winners.jpg)
 
 - Winners of the mathematics competition: Team and Individual
 
-![Data Science and Math Modeling](./workshop-1-1.jpg)
+![Data Science and Math Modeling Workshop at the Mathematical Association of America(MAA) Louisiana/ Mississippi Section 2024](./workshop-1-1.jpg)
 
 - Data Science and Math Modeling Workshop
