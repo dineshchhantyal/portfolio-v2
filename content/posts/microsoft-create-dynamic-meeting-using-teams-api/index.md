@@ -7,6 +7,8 @@ slug: '/blogs/microsoft-create-dynamic-meeting-using-teams-api'
 tags:
   - Teams API
   - CreateMeeting
+  - Microsoft Graph API
+  - OnlineMeetings
 ---
 
 Crafting meetings that adapt to your team's needs is crucial in the digital collaboration era. Picture a meeting link that adjusts dynamically, inviting participants seamlessly. Let's explore how to achieve this with the Microsoft Teams API.

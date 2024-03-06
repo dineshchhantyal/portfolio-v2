@@ -18,7 +18,7 @@ tags:
   - Math Modeling
 ---
 
-The [Mathematical Association of America (MAA) Louisiana/Mississippi][https://www.la-ms.maa.org/] Section Meeting 2024 was a celebration of mathematical inquiry and discovery. From the Integration Bee to insightful workshops, the conference was a convergence of minds and ideas. The event was held at the Sheraton Hotel in [New Orleans, LA](https://maps.app.goo.gl/2EYHBAYsDL1gy82o7), from February 29 to March 2, 2024.
+The [Mathematical Association of America][https://www.la-ms.maa.org/] (MAA) Louisiana/Mississippi Section Meeting 2024 was a celebration of mathematical inquiry and discovery. From the Integration Bee to insightful workshops, the conference was a convergence of minds and ideas. The event was held at the Sheraton Hotel in [New Orleans, LA](https://maps.app.goo.gl/2EYHBAYsDL1gy82o7), from February 29 to March 2, 2024.
 
 ---
 
