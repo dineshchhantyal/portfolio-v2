@@ -38,7 +38,7 @@ The conference was rich with workshops that were insightful and forward-thinking
 
 This workshop, led by experts from Louisiana Tech University, delved into the significance of mathematical models in data science applications, such as Indoor Location Tracking Systems (ILTS). It underscored the challenges posed by noisy, non-Gaussian data and the limitations of the path loss model. From a computer science perspective, understanding the intricacies of these models is crucial for developing algorithms that can efficiently process and analyze data, enhancing the accuracy of technologies like iBeacon for real-world applications. I'm really excited about the implementation of this technology in the near future.
 
-![Data Science](./workshop-1-2.jpg)
+![Data Science: Mathematics, Computer Science, and Statistics](./workshop-1-2.jpg)
 
 ### Mathematical Modeling Comes Alive
 
