@@ -14,7 +14,7 @@ skills:
   - Agile Methodologies
 ---
 
-I'm currently in my sophomore year at the [University of Louisiana - Monroe](https://ulm.edu), pursuing a major in Computer Science and a minor in Mathematics. My journey in the world of programming is still in progress, fueled by a passion for learning and innovation.
+I'm currently in my junior year at the [University of Louisiana - Monroe](https://ulm.edu), pursuing a major in Computer Science and a minor in Mathematics. My journey in the world of programming is still in progress, fueled by a passion for learning and innovation.
 
 In parallel with my academic pursuits, I'm gaining hands-on experience as a Student Web Developer at the university, ensuring the impeccable quality of webpages for various departments.
 

@@ -5,29 +5,11 @@ import { srConfig } from '@config';
 import kebabCase from 'lodash/kebabCase';
 import { IconZap } from '@components/icons';
 import styled from 'styled-components';
-import { theme, mixins, media, Main, Heading } from '@styles';
+import { theme, mixins, media, Heading, Section } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
-const StyledMainContainer = styled(Main)`
-  & > header {
-    text-align: center;
-    margin-bottom: 100px;
-
-    a {
-      &:hover,
-      &:focus {
-        cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>⚡</text></svg>")
-            20 0,
-          auto;
-      }
-    }
-  }
-
-  footer {
-    ${mixins.flexBetween};
-    margin-top: 20px;
-    width: 100%;
-  }
+const StyledContainer = styled(Section)`
+  position: relative;
 `;
 
 const StyledGrid = styled.div`
@@ -149,7 +131,7 @@ const Blogs = ({ data }) => {
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
   return (
-    <StyledMainContainer
+    <StyledContainer
       id="blogs"
       ref={revealContainer}
     >
@@ -202,7 +184,7 @@ const Blogs = ({ data }) => {
       <ShowAll to="/blogs" >
         <span>Read all</span>
       </ShowAll >
-    </StyledMainContainer >
+    </StyledContainer >
   );
 };
 
