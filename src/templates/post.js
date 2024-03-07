@@ -40,7 +40,6 @@ const StyledPostContent = styled.div`
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
   const { title, date, tags, slug, hero } = frontmatter;
-  console.log("hero", hero)
   return (
     <Layout location={location}>
       <Helmet>

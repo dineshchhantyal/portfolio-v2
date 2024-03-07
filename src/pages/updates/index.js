@@ -107,7 +107,6 @@ const ChangesPage = ({ location, data }) => {
 
   const updates = data.allMarkdownRemark.edges;
 
-  console.log(updates);
 
   const revealTitle = useRef(null);
   const revealTable = useRef(null);

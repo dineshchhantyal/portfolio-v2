@@ -10,7 +10,6 @@ const StyledMainContainer = styled(Main)`
 `;
 
 const IndexPage = ({ location, data }) => {
-  console.log("data", data)
   return (
     < Layout location={location} >
       <StyledMainContainer className="fillHeight">
