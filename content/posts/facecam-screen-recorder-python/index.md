@@ -2,7 +2,7 @@
 title: Facecam + Screen Recorder in Python
 description: Start recording your screen and facecam with just a few lines of Python code. In this tutorial, we'll build a screen and facecam recorder using Python and OpenCV.
 date: '2024-03-20'
-draft: false
+draft: true
 slug: '/blogs/facecam-screen-recorder-python'
 tags:
   - Python
