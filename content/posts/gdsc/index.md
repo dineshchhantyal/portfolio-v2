@@ -20,5 +20,5 @@ Links to the ULM GDSC Hackathon 2024 files:
 
 - [Presentation: https://slides.com/d/2PQgDwk/live](https://slides.com/d/2PQgDwk/live)
 - [Preview: https://class-craft.vercel.app/](https://class-craft.vercel.app/)
-- [GitHub Repository: git@github.com:dineshchhantyal/ClassCraft.git](git@github.com:dineshchhantyal/ClassCraft.git)
+- [GitHub Repository: https://github.com/dineshchhantyal/ClassCraft](https://github.com/dineshchhantyal/ClassCraft)
 - [Documentation: https://ulmwarhawks-my.sharepoint.com/:w:/g/personal/chhantyald_warhawks_ulm_edu/EUVpUoHJyr9DrNVRoDyeLnABomBS56oXzoGYczoxaULpkQ?e=dTkoyX](https://ulmwarhawks-my.sharepoint.com/:w:/g/personal/chhantyald_warhawks_ulm_edu/EUVpUoHJyr9DrNVRoDyeLnABomBS56oXzoGYczoxaULpkQ?e=dTkoyX)
