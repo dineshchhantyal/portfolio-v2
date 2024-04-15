@@ -12,8 +12,6 @@ tags:
   - ULM
 ---
 
-# ULM's First Ever Hackathon - A Recap
-
 On April 12-13, 2024, the [Google Developer Student Clubs (GDSC)](https://www.instagram.com/gdsc_ulm/) at the [University of Louisiana Monroe (ULM)](https://ulm.edu) proudly hosted ULM's first ever Hackathon. This event marked a significant milestone in ULM’s commitment to innovation and creativity, bringing together a diverse group of students to tackle real-world challenges.
 
 ---
