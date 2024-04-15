@@ -53,7 +53,7 @@ _Mentoring participants during the Hackathon_
 ![Typing Competition](./tpying-competition.jpg)
 _Participants engaged in a typing competition_
 
-![Teamwork](./gdsc-team.jpg)
+![Teamwork](./gdsc-team.JPG)
 _GDSC ULM team after a successful Hackathon_
 
 ## ULM GDSC Hackathon 2024
