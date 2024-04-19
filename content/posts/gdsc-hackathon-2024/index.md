@@ -53,7 +53,7 @@ _Mentoring participants during the Hackathon_
 ![Typing Competition](./tpying-competition.jpg)
 _Participants engaged in a typing competition_
 
-![Teamwork](./gdsc-team.JPG)
+![Teamwork](./gdsc-team.jpg)
 _GDSC ULM team after a successful Hackathon_
 
 ## ULM GDSC Hackathon 2024
@@ -64,4 +64,4 @@ Learn more about the event:
 - [Demo Link: https://class-craft.vercel.app/](https://class-craft.vercel.app/)
 - [GitHub Repository: https://github.com/dineshchhantyal/ClassCraft](https://github.com/dineshchhantyal/ClassCraft)
 - [My Presentation: https://slides.com/d/2PQgDwk/live](https://slides.com/d/2PQgDwk/live)
-- [Barnstorming: https://ulmwarhawks-my.sharepoint.com/:w:/g/personal/chhantyald_warhawks_ulm_edu/EUVpUoHJyr9DrNVRoDyeLnABomBS56oXzoGYczoxaULpkQ?e=dTkoyX](https://ulmwarhawks-my.sharepoint.com/:w:/g/personal/chhantyald_warhawks_ulm_edu/EUVpUoHJyr9DrNVRoDyeLnABomBS56oXzoGYczoxaULpkQ?e=dTkoyX)
+- [Barnstorming: Word](https://ulmwarhawks-my.sharepoint.com/:w:/g/personal/chhantyald_warhawks_ulm_edu/EUVpUoHJyr9DrNVRoDyeLnABomBS56oXzoGYczoxaULpkQ?e=dTkoyX)
