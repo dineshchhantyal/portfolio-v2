@@ -13,9 +13,9 @@ company: ''
 showInProjects: true
 ---
 
-## About CheerPal
-
 CheerPal is your ultimate companion for never missing a birthday again. Designed as a symphony of delightful and stress-free connections, CheerPal excels in seamless birthday syncing, timely reminders, and efficient event coordination. Ready to transform how you celebrate, CheerPal is coming soon on all platforms!
+
+---
 
 ## Tour the Platform
 
