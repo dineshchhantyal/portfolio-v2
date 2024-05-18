@@ -14,7 +14,7 @@ tags:
   - Benchmarking
 ---
 
-In collaboration with Dr. Jemin Shim, an esteemed mentor and guide, I embarked on an illuminating journey into the realm of prime numbers. Our odyssey traversed the annals of history, exploring the profound significance of primes, and culminated in the realm of quantum machines, where prime counting functions serve as vital cogs in the machinery of computation.
+In collaboration with [Dr. Jemin Shim](https://webservices.ulm.edu/facultyactivities/profile/shim), an esteemed mentor and guide, I embarked on an illuminating journey into the realm of prime numbers. Our odyssey traversed the annals of history, exploring the profound significance of primes, and culminated in the realm of quantum machines, where prime counting functions serve as vital cogs in the machinery of computation.
 
 ## Introduction: The Significance of Primes
 
@@ -22,7 +22,7 @@ Prime numbers are a fundamental concept in number theory and have applications i
 
 ## Understanding Prime Counting Functions
 
-At the heart of our exploration lay the prime counting function π(x), a mathematical tool that enumerates the number of prime numbers less than or equal to a given integer x. To grasp the intricacies of π(x), we turned to resources like [Brilliant Math & Science Wiki's article on prime counting](https://brilliant.org/wiki/prime-counting-function/), which offered detailed insights into its significance and applications.
+At the heart of our exploration lay the prime counting function $\pi(x)$, a mathematical tool that enumerates the number of prime numbers less than or equal to a given integer $x$. To grasp the intricacies of $\pi(x)$, we turned to resources like [Brilliant Math & Science Wiki's article on prime counting](https://brilliant.org/wiki/prime-counting-function/), which offered detailed insights into its significance and applications.
 
 ## Historical Perspectives: From Euclid to Euler
 
