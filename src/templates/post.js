@@ -39,13 +39,13 @@ const StyledPostContent = styled.div`
 
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
-  const { title, date, tags, slug, hero } = frontmatter;
+  const { title, description, date, tags, slug, hero } = frontmatter;
   return (
     <Layout location={location}>
       <Helmet>
         <title>{title} | Dinesh Chhantyal</title>
         <link rel="canonical" href={config.siteUrl + "/blogs"} />
-        <meta name="description" content={frontmatter.description} />
+        <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:url" content={config.siteUrl + "/blogs" + slug} />
         <meta property="og:description" content={frontmatter.description} />{hero &&
@@ -57,8 +57,6 @@ const PostTemplate = ({ data, location }) => {
           day: 'numeric',
         })} />
         <meta property="article:tag" content={tags.join(", ")} />
-
-
       </Helmet>
 
       <StyledPostContainer>
