@@ -125,6 +125,11 @@ const BlogsPage = ({ location, data }) => {
       <Helmet>
         <title>Blogs | Dinesh Chhantyal</title>
         <link rel="canonical" href="https://dineshchhantyal.com/blogs" />
+        <meta
+          name="description"
+          content="A collection of memories, bugs, and thoughts. A blog by Dinesh Chhantyal."
+        />
+
       </Helmet>
 
       <StyledMainContainer>

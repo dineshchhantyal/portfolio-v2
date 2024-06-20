@@ -124,6 +124,11 @@ const ChangesPage = ({ location, data }) => {
       <Helmet>
         <title>Updates | Dinesh Chhantyal</title>
         <link rel="canonical" href="https://dineshchhantyal.com/updates" />
+        <meta
+          name="description"
+          content="List of updates and changes made to the website."
+        />
+
       </Helmet>
 
       <StyledMainContainer>
