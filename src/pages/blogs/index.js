@@ -124,7 +124,7 @@ const BlogsPage = ({ location, data }) => {
     <Layout location={location}>
       <Helmet>
         <title>Blogs | Dinesh Chhantyal</title>
-        <link rel="canonical" href="https://dineshchhantyal.com.np/blogs" />
+        <link rel="canonical" href="https://dineshchhantyal.com/blogs" />
       </Helmet>
 
       <StyledMainContainer>

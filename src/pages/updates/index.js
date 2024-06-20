@@ -123,7 +123,7 @@ const ChangesPage = ({ location, data }) => {
     <Layout location={location}>
       <Helmet>
         <title>Updates | Dinesh Chhantyal</title>
-        <link rel="canonical" href="https://dineshchhantyal.com.np/updates" />
+        <link rel="canonical" href="https://dineshchhantyal.com/updates" />
       </Helmet>
 
       <StyledMainContainer>

@@ -5,7 +5,7 @@
   Dinesh's Portfolio Website
 </h1>
 <p align="center">
-  The is personal portfolio website hosted at <a href="https://dineshchhantyal.com.np" target="_blank">dineshchhantyal.com.np</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+  The is personal portfolio website hosted at <a href="https://dineshchhantyal.com" target="_blank">dineshchhantyal.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
 </p>
 
 <div align="center">
