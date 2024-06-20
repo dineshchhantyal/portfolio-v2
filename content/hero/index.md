@@ -5,8 +5,8 @@ subtitle: 'I love to build amazing things!'
 buttonText: 'Contact Me'
 ---
 
-I'm an ambitious and dedicated software developer, with a robust foundation in computer science and a fervent enthusiasm for continuous learning and innovation.
+I am an ambitious and dedicated software developer with a strong foundation in computer science and mathematics.
 
-Currently navigating my junior year at the [University of Louisiana(ULM)](https://ulm.edu), concurrently Student Web Developer at [ULM](https://ulm.edu).
+Currently, I am in my junior year at the [University of Louisiana at Monroe (ULM)](https://ulm.edu), where I also serve as a Student Web Developer.
 
-I excel in the vibrant crossroads of technology and creative expression, embracing the dynamic challenges of my academic and professional journey.
+I thrive at the intersection of technology and creative expression, embracing the dynamic challenges of my academic and professional journey. With a passion for continuous learning and innovation, I strive to turn complex problems into elegant solutions.
