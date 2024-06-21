@@ -155,6 +155,7 @@ const Footer = () => {
               <StyledLink
                 href={link.url}
                 className='underline'
+                key={i}
               >
                 <div>
                   <span>{link.name}</span>
