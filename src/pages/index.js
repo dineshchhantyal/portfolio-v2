@@ -10,6 +10,28 @@ const StyledMainContainer = styled(Main)`
 `;
 
 const IndexPage = ({ location, data }) => {
+  // console.log creative message saying hello to developer
+  console.log(
+    `
+    _   _      _ _         ____                 _
+   | | | | ___| | | ___   |  _ \\  _____   _____| | ___  _ __   ___ _ __
+   | |_| |/ _ \\ | |/ _ \\  | | | |/ _ \\ \\ / / _ \\ |/ _ \\| '_ \\ / _ \\ '__|
+   |  _  |  __/ | | (_) | | |_| |  __/\\ V /  __/ | (_) | |_) |  __/ |
+   |_| |_|\\___|_|_|\\___/  |____/ \\___| \\_/ \\___|_|\\___/| .__/ \\___|_|
+                                                       |_|
+
+    Hi there! 👋
+
+    I see you are curious. I don't think you will find anything interesting here. But if you do, let me know. I would love to hear from you.
+
+    Happy Coding! 🚀
+
+    `
+  );
+
+
+
+
   return (
     < Layout location={location} >
       <StyledMainContainer className="fillHeight">
