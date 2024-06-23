@@ -2,7 +2,7 @@
 date: '2022-01-11'
 title: 'CheerPal'
 github: ''
-external: 'https://cheerpal.vercel.app/'
+external: 'https://cheerpal.dineshchhantyal.com/'
 tech:
   - Next.js
   - TypeScript
