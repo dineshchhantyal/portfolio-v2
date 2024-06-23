@@ -9,6 +9,7 @@ module.exports = {
   siteLanguage: 'en_US',
   googleAnalyticsID: 'G-EJNHD3PE06',
   googleVerification: '',
+  googleAdsAccountID: '296-940-9239',
   name: 'Dinesh Chhantyal',
   location: 'Monroe, LA',
   email: 'myagdichhantyal@gmail.com',
