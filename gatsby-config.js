@@ -11,6 +11,17 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        createImages: ({ node, actions }) => {
+          const { createNodeField } = actions;
+          // Your custom logic here
+        },
+        // Other options...
+      },
+    },
+
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     {
