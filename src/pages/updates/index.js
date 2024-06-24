@@ -220,7 +220,9 @@ export const pageQuery = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/updates/" } }
-      sort: { fields: [frontmatter___completed,frontmatter___date], order: ASC }
+      # sort: { fields: [frontmatter___completed,frontmatter___date], order: ASC }
+      sort: [{frontmatter: {completed: ASC}},
+      {frontmatter: {date:DESC}}]
     ) {
       edges {
         node {

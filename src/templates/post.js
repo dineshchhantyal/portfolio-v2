@@ -38,6 +38,10 @@ const StyledPostContent = styled.div`
 `;
 
 const PostTemplate = ({ data, location }) => {
+  console.log(data);
+  if (!data.markdownRemark) {
+    return <div>Error: Post not found</div>;
+  }
   const { frontmatter, html } = data.markdownRemark;
   const { title, description, date, tags, slug, hero } = frontmatter;
   return (
@@ -99,7 +103,8 @@ PostTemplate.propTypes = {
   location: PropTypes.object,
 };
 
-export const pageQuery = graphql`
+export const pageQuery =
+  graphql`
   query ($path: String!) {
     markdownRemark(frontmatter: { slug: { eq: $path } }) {
       html
