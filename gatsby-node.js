@@ -45,7 +45,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const posts = result.data.postsRemark.edges;
 
   posts.forEach(({ node }) => {
-    console.log('node', node);
     createPage({
       path: node.frontmatter.slug,
       component: postTemplate,

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, useStaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import styled from 'styled-components';
@@ -52,6 +52,20 @@ const Layout = ({ children, location }) => {
   // const [isLoading, setIsLoading] = useState(isHome);
   const [isLoading, setIsLoading] = useState(false);
 
+  const { site } = useStaticQuery(
+    graphql`
+      query LayoutQuery {
+        site {
+          siteMetadata {
+            title
+            siteUrl
+            description
+          }
+        }
+      }
+    `
+  );
+
   useEffect(() => {
     if (isLoading) {
       return;
@@ -69,43 +83,28 @@ const Layout = ({ children, location }) => {
   }, [isLoading]);
 
   return (
-    <StaticQuery
-      query={graphql`
-        query LayoutQuery {
-          site {
-            siteMetadata {
-              title
-              siteUrl
-              description
-            }
-          }
-        }
-      `}
-      render={({ site }) => (
-        <div id="root">
-          <Head metadata={site.siteMetadata} />
+    <div id="root">
+      <Head metadata={site.siteMetadata} />
 
-          <GlobalStyle />
+      <GlobalStyle />
 
-          <SkipToContent href="#content">Skip to Content</SkipToContent>
+      <SkipToContent href="#content">Skip to Content</SkipToContent>
 
-          {isLoading ? (
-            <Loader finishLoading={() => setIsLoading(false)} />
-          ) : (
-            <StyledContent>
-              <Nav isHome={isHome} />
-              <Social isHome={isHome} />
-              <Email isHome={isHome} />
+      {isLoading ? (
+        <Loader finishLoading={() => setIsLoading(false)} />
+      ) : (
+        <StyledContent>
+          <Nav isHome={isHome} />
+          <Social isHome={isHome} />
+          <Email isHome={isHome} />
 
-              <div id="content">
-                {children}
-                <Footer />
-              </div>
-            </StyledContent>
-          )}
-        </div>
+          <div id="content">
+            {children}
+            <Footer />
+          </div>
+        </StyledContent>
       )}
-    />
+    </div>
   );
 };
 
