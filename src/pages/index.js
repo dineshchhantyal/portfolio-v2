@@ -82,6 +82,7 @@ export const pageQuery = graphql`
               }
             }
             skills
+            courses
           }
           html
         }

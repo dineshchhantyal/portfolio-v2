@@ -112,9 +112,18 @@ const StyledAvatarLink = styled.a`
   }
 `;
 
+const subHeading = styled.h3`
+  color: ${colors.green};
+  font-family: ${fonts.SFMono};
+  font-size: ${fontSizes.lg};
+  font-weight: semibold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+`;
+
 const About = ({ data }) => {
   const { frontmatter, html } = data[0].node;
-  const { title, skills, avatar } = frontmatter;
+  const { title, skills, courses, avatar } = frontmatter;
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
@@ -124,8 +133,15 @@ const About = ({ data }) => {
       <StyledFlexContainer>
         <StyledContent>
           <div dangerouslySetInnerHTML={{ __html: html }} />
+          <br />
+          <subHeading>Dev Tools</subHeading>
           <SkillsContainer>
             {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
+          </SkillsContainer>
+          <br />
+          <subHeading>Courses</subHeading>
+          <SkillsContainer>
+            {courses && courses.map((course, i) => <Skill key={i}>{course}</Skill>)}
           </SkillsContainer>
         </StyledContent>
         <StyledPic>
@@ -134,7 +150,7 @@ const About = ({ data }) => {
           </StyledAvatarLink>
         </StyledPic>
       </StyledFlexContainer>
-    </StyledContainer>
+    </StyledContainer >
   );
 };
 

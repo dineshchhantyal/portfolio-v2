@@ -10,8 +10,21 @@ skills:
   - Java
   - Python
   - Flutter
+  - Data Modeling
+  - RESTful APIs
+  - Scikit-learn
+  - Matplotlib & Seaborn
   - AWS & Google Cloud
   - Agile Methodologies
+courses:
+  - Discrete Structures
+  - Data Structures
+  - Object-Oriented Programming
+  - Network and Data Communications
+  - Analysis Algorithms
+  - Calculus
+  - Linear Algebra
+  - Mathematical Statistics
 ---
 
 I'm currently in my junior year at the [University of Louisiana - Monroe](https://ulm.edu), pursuing a major in Computer Science and a minor in Mathematics. My journey in the world of programming is still in progress, fueled by a passion for learning and innovation.

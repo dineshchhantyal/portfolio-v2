@@ -103,7 +103,11 @@ const Menu = ({ menuOpen, toggleMenu }) => {
             {navLinks &&
               navLinks.map(({ url, name }, i) => (
                 <NavListItem key={i}>
-                  <NavLink to={url}>{name}</NavLink>
+                  <NavLink to={url}
+                    role='link'
+                    tabIndex={0}
+                    aria-label='menu'
+                  >{name}</NavLink>
                 </NavListItem>
               ))}
           </NavList>
