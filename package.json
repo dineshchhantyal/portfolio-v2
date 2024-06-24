@@ -38,10 +38,10 @@
     "babel-plugin-styled-components": "^2.0.2",
     "gatsby": "^5.13.6",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-google-analytics": "4.25.0",
+    "gatsby-plugin-google-analytics": "5.13.1",
     "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
-    "gatsby-plugin-netlify": "^4.1.0",
+    "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-offline": "^6.13.2",
     "gatsby-plugin-react-helmet": "^6.13.1",
     "gatsby-plugin-robots-txt": "^1.7.0",
@@ -63,19 +63,19 @@
     "react-transition-group": "^4.3.0",
     "scrollreveal": "^4.0.5",
     "smooth-scroll": "^16.1.0",
-    "styled-components": "^5.3.3"
+    "styled-components": "^6.1.11"
   },
   "devDependencies": {
-    "@upstatement/eslint-config": "1.0.1",
+    "@upstatement/eslint-config": "3.0.0",
     "@upstatement/prettier-config": "^1.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.8.0",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint": "^9.5.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "gatsby-remark-code-titles": "^1.1.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.2",
-    "prettier": "^2.5.1"
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.2"
   }
 }
