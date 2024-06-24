@@ -1,2 +1,14 @@
 [build.environment]
   NODE_VERSION = "16.0.0"
+
+[[redirects]]
+  from = "https://www.dineshchhantyal.com.np/*"
+  to = "https://dineshchhantyal.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://dineshchhantyal.com.np/*"
+  to = "https://dineshchhantyal.com/:splat"
+  status = 301
+  force = true
