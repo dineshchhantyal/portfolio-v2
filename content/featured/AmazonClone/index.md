@@ -3,7 +3,7 @@ date: '2'
 title: 'Amazon Clone'
 cover: 'amazon.png'
 github: 'https://github.com/dineshchhantyal/amazonclone'
-external: 'https://clone-82d90.web.app/'
+external: 'https://amazon.dineshchhantyal.com/'
 tech:
   - React
   - Firebase

@@ -3,7 +3,7 @@ date: '3'
 title: 'Trip Planner'
 cover: 'trip-planner.png'
 github: 'https://github.com/dineshchhantyal/TripPlanner'
-external: 'https://trip-planner-iota.vercel.app'
+external: 'https://trip.dineshchhantyal.com/'
 tech:
   - React
   - Google Maps API
