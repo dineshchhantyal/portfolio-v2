@@ -199,19 +199,5 @@ module.exports = {
       },
     },
   ],
-}; export const pageQuery = graphql`
-  query ($path: String!) {
-    markdownRemark(fields: { slug: { eq: $path } }) {
-      html
-      frontmatter {
-        title
-        description
-        date
-        slug
-        tags
-        hero
-      }
-    }
-  }
-`;
+};
 
