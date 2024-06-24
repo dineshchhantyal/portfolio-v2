@@ -154,9 +154,9 @@ const BlogsPage = ({ location, data }) => {
                 const d = new Date(date);
 
                 return (
-                  <StyledPost key={i} tabIndex="0">
+                  <StyledPost key={slug} tabIndex="0">
                     <StyledPostInner>
-                      <header>
+                      <div>
                         <Link to={slug}>
                           <StyledPostHeader>
                             <StyledFolder>
@@ -166,8 +166,8 @@ const BlogsPage = ({ location, data }) => {
                           <StyledPostName>{title}</StyledPostName>
                           <StyledPostDescription>{description}</StyledPostDescription>
                         </Link>
-                      </header>
-                      <footer>
+                      </div>
+                      <div>
                         <StyledDate>{`${d.toLocaleDateString()}`}</StyledDate>
                         <StyledTags>
                           {tags.slice(0, 3).map((tag, i) => (
@@ -176,7 +176,7 @@ const BlogsPage = ({ location, data }) => {
                             </li>
                           ))}
                         </StyledTags>
-                      </footer>
+                      </div>
                     </StyledPostInner>
                   </StyledPost>
                 );
@@ -199,7 +199,8 @@ export const pageQuery = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/posts/" }, frontmatter: { draft: { ne: true } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      # sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC }}
     ) {
       edges {
         node {

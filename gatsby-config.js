@@ -1,3 +1,4 @@
+const { graphql } = require('gatsby');
 const config = require('./src/config');
 
 module.exports = {
@@ -199,3 +200,4 @@ module.exports = {
     },
   ],
 };
+
