@@ -2,7 +2,7 @@
 title: Counting Prime Numbers
 description: Counting prime numbers is a common problem in computer science. In this post, we'll explore different approaches to count prime numbers and compare their performance.
 date: '2024-02-15'
-draft: true
+draft: false
 slug: '/blogs/counting-prime-numbers'
 tags:
   - Python
