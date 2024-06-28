@@ -1,4 +1,5 @@
 ---
+date: '2022-01-27'
 title: 'Hardware and Software Intern'
 company: 'Baba Computer IT Solution'
 range: 'January 2021 - May 2021'
