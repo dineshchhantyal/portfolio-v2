@@ -1,5 +1,5 @@
 ---
-date: '2022-01-11'
+date: '2024-01-11'
 title: 'CheerPal'
 github: ''
 external: 'https://cheerpal.dineshchhantyal.com/'
@@ -9,8 +9,13 @@ tech:
   - Payment Gateway
   - Vercel
   - Flutter
+  - Firebase Cloud Messaging
+  - Machine Learning
+  - Content-based Filtering
+  - K-means Clustering
+  - Decision Trees
 company: ''
 showInProjects: true
 ---
 
-CheerPal is your ultimate companion for never missing a birthday again. Designed as a symphony of delightful and stress-free connections, CheerPal excels in seamless birthday syncing, timely reminders, and efficient event coordination. With personalized reminders, simplified birthday syncing, and the opportunity to connect with people who share your name or birthday, CheerPal is more than just an app; it's a new way to enhance your social connections and celebrate life’s joyful moments. Keep an eye out for our launch on all platforms, coming soon!
+**CheerPal** — Spearheaded a team of 6 members in developing a reminder application. Integrated **Firebase Cloud Messaging** for real-time notifications and employed **machine learning models** for personalized product recommendations from Amazon and Walmart, utilizing **content-based filtering**, **K-means clustering**, and **decision trees**.

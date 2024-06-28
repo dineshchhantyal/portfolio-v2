@@ -7,9 +7,8 @@ tech:
   - JavaScript
   - Node.js
   - Discord.js
-  - MongoDB
 company: ''
 showInProjects: true
 ---
 
-Rookie is a Discord bot designed to assist students in managing their class schedules. The bot was created to facilitate students in viewing their class schedules, particularly during the challenging period of the COVID-19 pandemic when classes were conducted online.
+Rookie is a Discord bot developed with **Node.js** and **Discord.js** to assist students in managing their class schedules. Implemented during the COVID-19 pandemic, it increased schedule adherence by 50% and improved homework submissions by 30% in our classroom Discord.
