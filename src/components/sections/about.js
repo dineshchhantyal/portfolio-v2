@@ -12,7 +12,7 @@ const StyledContainer = styled(Section)`
 `;
 const StyledFlexContainer = styled.div`
   ${mixins.flexBetween};
-  align-items: flex-start;
+align-items: flex-start;
   ${media.tablet`display: block;`};
 `;
 const StyledContent = styled.div`

@@ -27,10 +27,14 @@ courses:
   - Mathematical Statistics
 ---
 
-I'm currently in my junior year at the [University of Louisiana - Monroe](https://ulm.edu), pursuing a major in Computer Science and a minor in Mathematics. My journey in the world of programming is still in progress, fueled by a passion for learning and innovation.
+I'm currently in my junior year at the [University of Louisiana - Monroe](https://ulm.edu), majoring in Computer Science with a minor in Mathematics. My journey in programming is driven by a passion for learning and innovation.
 
-In parallel with my academic pursuits, I'm gaining hands-on experience as a Student Web Developer at the university, ensuring the impeccable quality of webpages for various departments.
+As a **Student Web Developer** at ULM, I've ensured the quality of departmental webpages, resolving over **100 issues**.
 
-I have experience developing enterprise ed-tech solutions for brands, including [Clamphook](https://www.clamphook.com) and [Padhao](https://padhao-frontend-five.vercel.app/).
+I have experience developing enterprise ed-tech solutions for [Clamphook](https://www.clamphook.com) and [Padhao](https://padhao-frontend-five.vercel.app/), designing secure full-stack systems and deploying robust applications.
 
-I actively engage in the Google Student Developer Club at ULM, where my focus lies on contributing to the tech community and developing my leadership and collaboration skills.
+In machine learning, I leverage **Scikit-learn**, **Matplotlib**, and **Seaborn** to extract meaningful data insights for academic and practical projects.
+
+Active in the **Google Student Developer Club**, I contribute to the tech community and develop my leadership and collaboration skills.
+
+Let's connect and innovate together!

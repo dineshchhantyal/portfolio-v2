@@ -7,6 +7,6 @@ buttonText: 'Contact Me'
 
 I am an ambitious and dedicated software developer with a strong foundation in computer science and mathematics.
 
-Currently, I am in my junior year at the [University of Louisiana at Monroe (ULM)](https://ulm.edu), where I also serve as a Student Web Developer.
+Currently, I am in my junior year at the [University of Louisiana at Monroe (ULM)](https://ulm.edu), where I also serve as a **Student Web Developer**.
 
 I thrive at the intersection of technology and creative expression, embracing the dynamic challenges of my academic and professional journey. With a passion for continuous learning and innovation, I strive to turn complex problems into elegant solutions.
