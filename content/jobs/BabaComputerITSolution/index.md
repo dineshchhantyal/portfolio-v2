@@ -1,7 +1,7 @@
 ---
 title: 'Hardware and Software Intern'
 company: 'Baba Computer IT Solution'
-range: 'January 2022 - May 2022'
+range: 'January 2021 - May 2021'
 url: 'https://www.facebook.com/babacomputerspokhara'
 ---
 
