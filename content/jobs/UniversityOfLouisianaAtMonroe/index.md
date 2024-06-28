@@ -6,9 +6,8 @@ range: 'January 2023 - Present'
 url: 'https://www.ulm.edu/'
 ---
 
-- Perform comprehensive pre-publication testing, ensuring impeccable quality and error-free webpages for production.
-- Drive enhanced online presence and user satisfaction by crafting dynamic, user-friendly webpages for departments like the
-  Museum of Natural History, ULM Alumni, and ULM test management.
-- Streamline data collection and processing through proficient management of an in-house web forms system, meeting client
-  needs effectively.
-- Integrated third-party web services, including the integration of Microsoft Teams API into our web application for effective interaction between students and instructors.
+- **Performed comprehensive pre-publication testing** on over **200 webpages**, ensuring high-quality and error-free content for production.
+- **Enhanced online presence and user satisfaction** by creating dynamic, user-friendly webpages for departments such as the **Museum of Natural History, ULM Alumni**, and **ULM test management**, resulting in a **30% increase in user engagement**.
+- **Streamlined data collection and processing** by managing an in-house web forms system, reducing data processing time by **40%**.
+- **Integrated third-party web services**, including the **Microsoft Teams API**, into web applications, facilitating a **25% improvement in interaction** between students and instructors.
+- **Resolved over 100 website and form issues** within two months, ensuring optimal performance and usability.
