@@ -26,7 +26,7 @@ We also relied on the support of **15 dedicated volunteers**, who worked tireles
 
 ### The Day of TechXpo
 
-When the big day finally arrived, it was nothing short of magical. The event featured **28 incredible projects**, each a testament to the creativity and hard work of our participants. From innovative apps to groundbreaking prototypes, the projects truly embodied the spirit of innovation.
+When the big day finally arrived, it was nothing short of magical. The event featured **15 incredible projects**, each a testament to the creativity and hard work of our participants. From innovative apps to groundbreaking prototypes, the projects truly embodied the spirit of innovation.
 
 What made it even more special was the overwhelming support from the community. We welcomed over **200+ visitors**, whose presence and engagement turned TechXpo into a lively and collaborative experience.
 
