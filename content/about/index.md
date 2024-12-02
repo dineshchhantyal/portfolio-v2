@@ -22,19 +22,21 @@ courses:
   - Object-Oriented Programming
   - Network and Data Communications
   - Analysis Algorithms
+  - Unsupervised Machine Learning
+  - Supervised Machine Learning
   - Calculus
   - Linear Algebra
   - Mathematical Statistics
 ---
 
-I'm currently in my junior year at the [University of Louisiana - Monroe](https://ulm.edu), majoring in Computer Science with a minor in Mathematics. My journey in programming is driven by a passion for learning and innovation.
+I'm in my senior year at the [University of Louisiana - Monroe](https://ulm.edu), pursuing a major in Computer Science and a minor in Mathematics. My programming journey is fueled by a deep passion for learning and innovation.
 
-As a **Student Web Developer** at ULM, I've ensured the quality of departmental webpages, resolving over **100 issues**.
+As a **Web Developer** at ULM, I've ensured the quality of departmental webpages, resolving over **100+ issues**.
 
 I have experience developing enterprise ed-tech solutions for [Clamphook](https://www.clamphook.com) and [Padhao](https://padhao-frontend-five.vercel.app/), designing secure full-stack systems and deploying robust applications.
 
 In machine learning, I leverage **Scikit-learn**, **Matplotlib**, and **Seaborn** to extract meaningful data insights for academic and practical projects.
 
-Active in the **Google Student Developer Club**, I contribute to the tech community and develop my leadership and collaboration skills.
+As the president of the **Google Developer Student Club**, I lead a board of 12 teams to organize tech exhibitions, hackathons, tech talks, and career talks. This role has honed my leadership and collaboration skills while contributing to the tech community.
 
 Let's connect and innovate together!
